@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="resources/css/style.css">
+    </head>
+    <body>
+        <h1>Lottery</h1>
+        
+        <button onclick="lotteryWinner()">Roll lottery</button>
+        <p id="result"></p>
+      
+        <image id="img"></image>
+      <script>
+      function lotteryWinner(){
+       
+        var x=Math.floor(Math.random()*16+1)
+        document.getElementById("result").innerHTML=x
+        let image=document.createElement("img")
+        switch(x){
+        case 1:
+            img.src="resources/images/image1.png"
+            document.body.appendChild(img)
+            break
+        case 2:
+            img.src="resources/images/image2.jpg"
+            document.body.appendChild(img)
+            break
+        case 3:
+            img.src="resources/images/image3.jpg"
+            document.body.appendChild(img)
+            break
+        case 4:
+            img.src="resources/images/image4.jpg"
+            document.body.appendChild(img)
+            break
+        case 5:
+            img.src="resources/images/image5.jpg"
+            document.body.appendChild(img)
+            break
+        case 6:
+            img.src="resources/images/image6.jpg"
+            document.body.appendChild(img)
+            break
+        case 7:
+            img.src="resources/images/image7.jpg"
+            document.body.appendChild(img)
+            break
+        case 8:
+            img.src="resources/images/image8.jpg"
+            document.body.appendChild(img)
+            break
+        case 9:
+            img.src="resources/images/image9.jpg"
+            document.body.appendChild(img)
+            break
+        case 10:
+            img.src="resources/images/image10.jpg"
+            document.body.appendChild(img)
+            break
+        case 11:
+            img.src="resources/images/image11.jpg"
+            document.body.appendChild(img)
+            break
+        case 12:
+            img.src="resources/images/image12.jpg"
+            document.body.appendChild(img)
+            break
+        case 13:
+            img.src="resources/images/image13.jpg"
+            document.body.appendChild(img)
+            break 
+        case 14:
+            img.src="resources/images/image14.jpg"
+            document.body.appendChild(img)
+            break
+        case 15:
+            img.src="resources/images/image15.jpg"
+            document.body.appendChild(img)
+            break
+        case 16:
+            img.src="resources/images/image16.jpg"
+            document.body.appendChild(img)
+            break
+        
+      }
+      }
+
+
+      
+      </script>
+    </body>
+</html>
